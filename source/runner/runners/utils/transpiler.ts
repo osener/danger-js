@@ -87,8 +87,6 @@ export const babelify = (content: string, filename: string, extraPlugins: string
     filename,
     filenameRelative: filename,
     sourceMap: false,
-    sourceFileName: undefined,
-    sourceMapTarget: undefined,
     sourceType: "module",
     plugins: [...extraPlugins, ...options.plugins],
   }
